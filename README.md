@@ -28,7 +28,39 @@ export default defineConfig([
       // Alternatively, use this for stricter rules
       tseslint.configs.strictTypeChecked,
       // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+      tseslint.configs.stylisticTypeChecked# hello-react
+
+React + TypeScript + Vite の学習・練習用リポジトリです。
+
+## 概要
+
+Viteのテンプレートを使って作成した、React学習のための最初のプロジェクトです。
+
+## 技術スタック
+
+- React
+- TypeScript
+- Vite
+- ESLint
+
+## 開発
+
+```bash
+npm install
+npm run dev
+```
+
+`http://localhost:5173` で確認できます。
+
+## ビルド
+
+```bash
+npm run build
+```
+
+## ライセンス
+
+特に指定なし
 
       // Other configs...
     ],
